@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "change-workflow",
+  "owner": {
+    "name": "cwoodard1121"
+  },
+  "metadata": {
+    "description": "One fixed path from \"I want X changed\" to a reviewed PR, for Claude Code and any agent that reads AGENTS.md."
+  },
+  "plugins": [
+    {
+      "name": "change-workflow",
+      "source": "./change-workflow",
+      "description": "Questions one at a time, an approved spec, a plan with real tasks, the PR, a fixed report, and a GitHub Issues protocol (priority, type, status, DO NOW) that keeps the backlog honest.",
+      "category": "development"
+    }
+  ]
+}

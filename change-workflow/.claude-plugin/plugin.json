@@ -1,0 +1,11 @@
+{
+  "name": "change-workflow",
+  "version": "1.0.0",
+  "description": "One fixed path from \"I want X changed\" to the PR: orient, questions one at a time, approaches, an approved spec, a plan, execute, PR, a fixed report. Plus the GitHub Issues protocol it runs on and a setup skill that drops the templates, labels and agent rules into a project.",
+  "author": {
+    "name": "cwoodard1121"
+  },
+  "repository": "https://github.com/cwoodard1121/change-workflow",
+  "license": "MIT",
+  "keywords": ["workflow", "spec", "plan", "github-issues", "pull-request"]
+}
